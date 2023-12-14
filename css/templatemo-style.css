@@ -209,8 +209,8 @@ header .social-icon li a
 		background-position: left;
 		padding-top: 160px;
 		padding-bottom: 100px;
-		min-height: 650x;
-		width: 150px;
+		min-height: 650px;
+		width: auto;
         height: 100px;
         
 	}
@@ -605,3 +605,35 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+
+/* Seperate each section as a page with full height */
+section {
+	min-height: 100vh !important;
+}
+
+/* Logo Sizing */
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+.header-text {
+	font-size: 2.5em;
+}
+
+/* Fix get-started-btn at end of scrfeen until scrolled out of view */
+.get-started-btn {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#home .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: center;
+	align-self: center;
+}
