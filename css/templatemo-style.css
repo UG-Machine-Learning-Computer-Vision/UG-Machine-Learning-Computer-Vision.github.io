@@ -204,9 +204,6 @@ header .social-icon li a
 /* start home */
 #home
 	{
-		background: url('../images/DISAL\ Logo_Stacked_SVG.svg') no-repeat;
-		background-size: auto;
-		background-position: left;
 		padding-top: 160px;
 		padding-bottom: 100px;
 		min-height: 650px;
